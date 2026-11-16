@@ -1,0 +1,23 @@
+# Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Venv (Окружение) потом убрать комент
+venv/
+.venv/
+env/
+.env
+
+# Фронтенд (Node.js / React)
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+frontend/.local
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vite/
